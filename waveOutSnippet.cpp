@@ -2,6 +2,8 @@
 // A demonstration of the traditional win32 waveOut sound API.
 // This will play a 440 Hz sine wave on the default audio interface.
 
+// Please make sure to link winmm.lib
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
